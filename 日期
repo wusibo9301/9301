@@ -1,0 +1,23 @@
+//int main()
+//{
+//	printf("输入年，月，日\n");
+//	int year, month, day = 0;
+//	int yearday = 0;
+//	int a = 0;
+//	int arr[12] = { 31,29,31,30,31,30,31,31,30,31,30,31 };
+//	scanf("%d%d%d", &year, &month, &day);
+//	if (year % 4 == 0 & year % 100 != 0 || year % 400 == 0)
+//		arr[1] = 28;
+//	else
+//		arr[1] = 29;
+//	int i = 0;
+//	while (i + 1 < month)
+//	{
+//		a += arr[i];
+//		i++;
+//	}
+//	if (i + 1 >= month)
+//		yearday = day + a;
+//	printf("%d\n", yearday);
+//	return 0;
+//}
